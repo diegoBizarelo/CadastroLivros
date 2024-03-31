@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{ED4C0E42-6377-4357-973B-8D33B3CF6E1F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{0E70FBE0-9772-4181-80CE-28926C9B169B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{425311A8-51AB-4721-95C0-A0D2965932C1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CadastroLivros.Core", "src\CadastroLivros.Core\CadastroLivros.Core.csproj", "{09243114-FD1A-4779-8490-672D5E2046B3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CadastroLivros.API", "src\CadastroLivros.API\CadastroLivros.API.csproj", "{319A8908-6715-473C-B823-450D0EDB5B6A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CadastroLivros.Core.API", "src\CadastroLivros.Core.API\CadastroLivros.Core.API.csproj", "{4D4C3451-6A7B-4FCC-96C0-23C7165A77CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CadastroLivros.Infrastructure", "src\CadastroLivros.Infrastructure\CadastroLivros.Infrastructure.csproj", "{475A5C55-4586-4125-BCA9-FE96838EBF39}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09243114-FD1A-4779-8490-672D5E2046B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09243114-FD1A-4779-8490-672D5E2046B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09243114-FD1A-4779-8490-672D5E2046B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09243114-FD1A-4779-8490-672D5E2046B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{319A8908-6715-473C-B823-450D0EDB5B6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{319A8908-6715-473C-B823-450D0EDB5B6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{319A8908-6715-473C-B823-450D0EDB5B6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{319A8908-6715-473C-B823-450D0EDB5B6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D4C3451-6A7B-4FCC-96C0-23C7165A77CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D4C3451-6A7B-4FCC-96C0-23C7165A77CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D4C3451-6A7B-4FCC-96C0-23C7165A77CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D4C3451-6A7B-4FCC-96C0-23C7165A77CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{475A5C55-4586-4125-BCA9-FE96838EBF39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{475A5C55-4586-4125-BCA9-FE96838EBF39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{475A5C55-4586-4125-BCA9-FE96838EBF39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{475A5C55-4586-4125-BCA9-FE96838EBF39}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{09243114-FD1A-4779-8490-672D5E2046B3} = {ED4C0E42-6377-4357-973B-8D33B3CF6E1F}
+		{319A8908-6715-473C-B823-450D0EDB5B6A} = {425311A8-51AB-4721-95C0-A0D2965932C1}
+		{4D4C3451-6A7B-4FCC-96C0-23C7165A77CE} = {ED4C0E42-6377-4357-973B-8D33B3CF6E1F}
+		{475A5C55-4586-4125-BCA9-FE96838EBF39} = {0E70FBE0-9772-4181-80CE-28926C9B169B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0E682F56-64C2-4EEB-8B5F-5B2CD6E1E9B8}
+	EndGlobalSection
+EndGlobal
